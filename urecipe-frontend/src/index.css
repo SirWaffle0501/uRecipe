@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.rating-stars span {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.rating-stars .filled {
+  color: gold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 300px;
+  margin: 1rem auto;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #343a40;
+  color: #fff;
+}
